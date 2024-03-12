@@ -8,7 +8,6 @@ import Dashboard from "./pages/Dashboard"
 import { useEffect, useState } from 'react'
 import PrivateRoute from "./components/PrivateRoute";
 
-
 function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
