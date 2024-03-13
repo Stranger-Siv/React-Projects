@@ -7,7 +7,6 @@ function App() {
   // const [firstName,setFirstName] = useState("")
   // const [lastName,setLastName] = useState("")
 
-
   // function changeFirstnameHandler(event){
   //   setFirstName(event.target.value)
   // }
@@ -15,7 +14,6 @@ function App() {
   // function changeLastnameHandler(event){
   //   setLastName(event.target.value)
   // } 
-
 
   const [formData , setFormData] = useState({firstName:"" , lastName:"",email:"",comment:"",isVisible:"true",mode:"",favCar:""})
 
@@ -25,7 +23,6 @@ function App() {
       return {
         ...prevFormData,
          [name]: type ==="checkbox" ? checked :value
-
 
       }
     } )
@@ -91,7 +88,6 @@ function App() {
         /> 
         <label htmlFor='isVisible'>Am I visible ?</label>
 
-
         <br></br>
         <br></br>
 
@@ -140,5 +136,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
