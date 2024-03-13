@@ -22,7 +22,6 @@ function App() {
   return (
     <div className='flex flex-col items-center mt-2'>
       
-     
       <form onSubmit={submitHandler}>
       <label htmlFor='firstName'>First Name</label>
       <br />
@@ -225,7 +224,6 @@ function App() {
       />
        <label htmlFor='pushEverythin'>No Push Notification</label>
 
-     
     </fieldset>
 
 
