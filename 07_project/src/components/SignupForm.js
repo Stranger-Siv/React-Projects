@@ -3,7 +3,6 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import {toast} from "react-hot-toast"
 import { useNavigate } from 'react-router-dom';
 
-
 const SignupForm = ({setIsLoggedIn}) => {
     const navigate = useNavigate();
 
@@ -27,7 +26,6 @@ const SignupForm = ({setIsLoggedIn}) => {
                 [event.target.name]:event.target.value
             }
         ) )
-
     }
 
     function submitHandler(event) {
