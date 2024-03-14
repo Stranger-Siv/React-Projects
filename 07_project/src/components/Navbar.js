@@ -28,7 +28,6 @@ const Navbar = (props) => {
             </ul>
         </nav>
 
-        {/* Login - SignUp - LogOut - Dashboard */}
         <div className='flex items-center gap-x-4'>
             { !isLoggedIn &&
                 <Link to="/login">
