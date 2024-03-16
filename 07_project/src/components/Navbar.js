@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/Logo.svg"
+import logo from "../assets/logo-no-background.png"
 import {Link} from "react-router-dom"
 import {toast} from "react-hot-toast"
 
@@ -11,11 +11,11 @@ const Navbar = (props) => {
     <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
 
         <Link to="/"> 
-            <img src={logo} alt="Logo" width={160} height={32} loading="lazy"/>
+            <img src={logo} alt="Logo" width={170} height={15} loading="lazy"/>
         </Link>
 
         <nav>
-            <ul className='text-richblack-100 flex gap-x-6'>
+            <ul className='text-richblack-100 flex gap-x-6 text-[20px]'>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
