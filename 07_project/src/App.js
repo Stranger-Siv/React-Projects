@@ -3,10 +3,12 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Login from "./pages/Login"
+import About from "./pages/About"
 import Signup from "./pages/Signup"
 import Dashboard from "./pages/Dashboard"
 import { useEffect, useState } from 'react'
 import PrivateRoute from "./components/PrivateRoute";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -26,8 +28,9 @@ function App() {
           <PrivateRoute isLoggedIn={isLoggedIn}>
               <Dashboard/>
           </PrivateRoute>
-       
         } />
+        <Route path="/about" element= {<About/>} />
+        <Route path="/contact" element= {<Contact/>} />
 
       </Routes>
 

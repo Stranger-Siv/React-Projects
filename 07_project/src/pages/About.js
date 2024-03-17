@@ -1,13 +1,10 @@
-import React from "react";
+import React from 'react'
 
 
-
-const About = () =>{
-return(
-    <div>
-        <h1>Welcome to About Page</h1>
-    </div>
-);
+const About = () => {
+  return (
+    <h1 className='flex justify-center items-center text-white text-3xl h-full'>Welcome to About Page</h1>
+  )
 }
 
 export default About
