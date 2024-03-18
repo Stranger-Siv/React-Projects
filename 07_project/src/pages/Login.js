@@ -12,7 +12,8 @@ const Login = ({setIsLoggedIn}) => {
       formtype="login"
       setIsLoggedIn={setIsLoggedIn}
     />
-  )
+  ) 
+
 }
 
 export default Login
