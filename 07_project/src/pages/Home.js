@@ -24,27 +24,27 @@ const Home = ({ isLoggedIn }) => {
           <h1 className='text-richblack-100 text-2xl m-8'>What are you looking for?</h1>
           <div className='grid grid-rows-2 grid-flow-col gap-3 m-8 '>
             <div className='cursor-pointer'>
-              <img src={cleaner} width={120} height={60} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={cleaner} width={120} height={60} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Cleaning</h1>
             </div>
             <div className='cursor-pointer'>
-              <img src={painting} width={120} height={60} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={painting} width={120} height={60} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Painting</h1>
             </div>
             <div>
-              <img src={salon} width={120} height={60} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={salon} width={120} height={60} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Female Salon</h1>
             </div>
             <div className='cursor-pointer'>
-              <img src={salonm} width={120} height={80} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={salonm} width={120} height={80} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Male Salon</h1>
             </div>
             <div className='cursor-pointer'>
-              <img src={repair} width={120} height={60} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={repair} width={120} height={60} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Repair</h1>
             </div>
             <div className='cursor-pointer'>
-              <img src={electrician} width={120} height={60} className='cursor-pointer hover:opacity-70 rounded-md' />
+              <img src={electrician} width={120} height={60} className='cursor-pointer hover:opacity-70 hover:scale-105 rounded-md' />
               <h1 className='text-richblack-100 text-center mt-2'>Electrician</h1>
             </div>
           </div>
