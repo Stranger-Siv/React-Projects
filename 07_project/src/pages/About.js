@@ -13,19 +13,19 @@ const About = () => {
       <div className='border-2 w-[50%] rounded-lg mr-4 '>
         <img src={service} className='rounded-xl scale-90 mt-[10px]' />
         <div className='grid grid-rows-2 grid-flow-col text-white p-5 gap-5'>
-        <div className='border-2 rounded-xl bg-slate-900'>
+        <div className='border-2 rounded-xl bg-slate-900 cursor-pointer'>
           <div className='text-3xl p-4'>2.5</div>
           <div className='text-xl p-4 mt-[-30px]'>Years Experience</div>
           </div>
-          <div className='border-2 rounded-xl bg-slate-900'>
+          <div className='border-2 rounded-xl bg-slate-900 cursor-pointer'>
           <div className='text-3xl p-4'>50K</div>
           <div className='text-xl p-4 mt-[-30px]'>Service Delivered</div>
           </div>
-          <div className='border-2 rounded-xl bg-slate-900'>
+          <div className='border-2 rounded-xl bg-slate-900 cursor-pointer'>
           <div className='text-3xl p-4'>30K+</div>
           <div className='text-xl p-4 mt-[-30px]'>Positive Reviews</div>
           </div>
-          <div className='border-2 rounded-xl bg-slate-900'>
+          <div className='border-2 rounded-xl bg-slate-900 cursor-pointer'>
           <div className='text-3xl p-4'>4.8</div>
           <div className='text-xl p-4 mt-[-30px]'>Service Rating</div>
           </div>
