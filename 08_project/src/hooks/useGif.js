@@ -21,6 +21,7 @@ const useGif = (tag) => {
       setLoading(false);
     }
     
+    
     useEffect( () => {
       fetchData('car');
     },[] )
